@@ -24,4 +24,11 @@ public class SimpleSummaterTest {
         assertEquals("wrong summater",
                 -348, sum);
     }
+    @Test
+    public void testZeroSum() throws ArraySummaterException {
+        int[] original = {0, 0, 0, 0};
+        int sum = this.simpleSum.sum(original);
+        assertEquals("wrong summater",
+                0, sum);
+    }
 }

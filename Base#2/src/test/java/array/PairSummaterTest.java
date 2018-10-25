@@ -25,4 +25,11 @@ public class PairSummaterTest {
         assertEquals("wrong summater",
                 -39, sum);
     }
+    @Test
+    public void testZeroSum() throws ArraySummaterException {
+        int[] original = {0, 0, 0, 0};
+        int sum = this.pairSum.sum(original);
+        assertEquals("wrong summater",
+                0, sum);
+    }
 }
