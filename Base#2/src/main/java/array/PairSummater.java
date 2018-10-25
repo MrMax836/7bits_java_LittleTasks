@@ -33,10 +33,13 @@ public class PairSummater implements IArraySummater {
         int currentMin = 0;
         for (int i = 0; i <= arrLength / 2; i += 2) {
             int temp = arr[i] + arr[i + 1];
-            if (temp < currentMin) {
+            if (currentMax == 0) {
+                currentMax = temp;
+            }
+            if (currentMin > temp) {
                 currentMin = temp;
             }
-            if (temp > currentMax) {
+            if (currentMax < temp) {
                 currentMax = temp;
             }
         }
