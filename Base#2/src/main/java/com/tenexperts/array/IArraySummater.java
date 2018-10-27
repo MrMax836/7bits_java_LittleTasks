@@ -1,4 +1,4 @@
-package array;
+package com.tenexperts.array;
 
 
 public interface IArraySummater{

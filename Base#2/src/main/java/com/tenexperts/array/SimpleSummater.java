@@ -1,7 +1,7 @@
-package array;
+package com.tenexperts.array;
 
 /**
- * Class for sum all elements of array
+ * Class for sum all elements of com.tenexperts.array
  */
 public class SimpleSummater implements IArraySummater {
     private int summ;
@@ -15,7 +15,7 @@ public class SimpleSummater implements IArraySummater {
 
     /**
      * @throws ArraySummaterException - custom exception
-     * @param arr - array of int.
+     * @param arr - com.tenexperts.array of int.
      */
     public int sum(final int[] arr) throws ArraySummaterException {
         try {

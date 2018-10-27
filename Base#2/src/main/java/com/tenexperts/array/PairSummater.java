@@ -1,4 +1,4 @@
-package array;
+package com.tenexperts.array;
 
 /**
  * Class for sum couple of integer
@@ -17,7 +17,7 @@ public class PairSummater implements IArraySummater {
     /**
      * Function that summing nearby couples.
      * @throws ArraySummaterException - custom exception
-     * @param arr - array of int.
+     * @param arr - com.tenexperts.array of int.
      */
     public int sum(final int[] arr) throws ArraySummaterException {
         int arrLength = arr.length;

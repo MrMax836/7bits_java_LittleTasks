@@ -1,5 +1,7 @@
-package array;
+package com.tenexperts.array;
 
+import com.tenexperts.array.ArraySummaterException;
+import com.tenexperts.array.SimpleSummater;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

@@ -1,7 +1,7 @@
-package main;
+package com.tenexperts.main;
 
-import array.ArraySummaterException;
-import array.SimpleSummater;
+import com.tenexperts.array.ArraySummaterException;
+import com.tenexperts.array.SimpleSummater;
 
 /**
  * Demonstrate work of IArraySummater
